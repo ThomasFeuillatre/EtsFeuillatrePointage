@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thomas.etsfeuillatrepointage.SignInActivity"
+    tools:context="com.thomas.etsfeuillatrepointage.activities.SignInActivity"
     android:gravity="center"
     android:orientation="vertical"
     android:paddingEnd="50dp"
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/editLogin"
+            android:id="@+id/editName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
@@ -39,10 +39,12 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.v7.widget.AppCompatButton
+        style="?attr/buttonStyle"
         android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Se connecter"
-        />
+        android:text="Valider"
+         />
+
 
 </LinearLayout>

@@ -5,6 +5,6 @@ package com.thomas.etsfeuillatrepointage.api;
  */
 
 public class APIUrl {
-    public static final String BASE_URL = "http://192.168.1.35:8080/ets_feuillatre_web/public/";
+    public static final String BASE_URL = "http://192.168.1.10:8080/ets_feuillatre_web/public/";
 
 }
